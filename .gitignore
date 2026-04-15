@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- VSCode ---
+.vscode/
+
+# --- Project outputs ---
+output/
+*.csv
+*.jsonl
+
+# --- Data (optional) ---
+
+!data/*.sample
+!data/*.example
+
+# --- Logs ---
+*.log
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- HuggingFace cache ---
+huggingface/
+.cache/
+transformers_cache/
+
+# --- Build artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
