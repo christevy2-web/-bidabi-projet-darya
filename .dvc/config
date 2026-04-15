@@ -1,4 +1,9 @@
 [core]
-    remote = localremote
+    remote = localstore
+[cache]
+    type = copy
+    protected = false
 ['remote "localremote"']
     url = C:\tmp\dvc_storage
+['remote "localstore"']
+    url = ../data/localstore
